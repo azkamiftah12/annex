@@ -1,44 +1,50 @@
 body {
-    color: #073b4c;
-    font-family: poppins;
+  color: #073b4c;
+  font-family: poppins;
 }
 
 .color-accent {
-    color: #0ead69 !important;
+  color: #0ead69 !important;
 }
 
 .checked {
-    color: orange;
+  color: orange;
 }
 
 #hero {
-    background-image: url("img/bacground.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("img/bacground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #ourservices {
-    background-color: white;
+  background-color: white;
 }
 
 #whyus {
-    background-color: #073b4c;
-    color: white;
+  background-color: #073b4c;
+  color: white;
 }
 
 #aboutus {
-    background-color: white;
+  background-color: white;
 }
 
 #client {
-    background-color: #f0f4f3;
+  background-color: #f0f4f3;
 }
 
 #partners {
-    background-color: white;
+  background-color: white;
 }
 
 #footer {
-    background-color: #073b4c;
-    color: white;
+  background-color: #073b4c;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  #hero {
+    font-size: 75%;
+  }
 }
